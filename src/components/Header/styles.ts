@@ -17,9 +17,6 @@ export const Container = styled.div`
     width: 100%;
     min-width: 320px;
     justify-content: space-between;
-    
-
-
 `;
 
 export const Title = styled.h1`
