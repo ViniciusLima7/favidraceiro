@@ -6,7 +6,7 @@ import bannerVidro from '../../assets/vidro.jpg';
     return (
         <Container>
             <Texto>
-                <Title>Blindex <br/> Vidros</Title>
+                <Title>Blindes <br/> Vidros</Title>
                 <p>O melhor serviço pra você</p>
                 <Link href="teste">Saiba mais !</Link>
             </Texto>

@@ -8,7 +8,7 @@ const Header =() =>{
                 <Container>
                     <div>
                         <Title>
-                             <LinkTitle href="#">Blindex Vidros</LinkTitle>
+                             <LinkTitle href="#">Blindes Vidros</LinkTitle>
                          </Title>
                     </div>
 
