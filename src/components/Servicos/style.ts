@@ -33,7 +33,7 @@ export const Title = styled.h2`
 export const ListaServicos = styled.div`
 
 display: flex;
-justify-content: space-between; 
+justify-content: space-around; 
 `;
 
 export const ItemServico = styled.div`
@@ -44,7 +44,7 @@ export const ItemServico = styled.div`
 export const Link = styled.a`
 
     width:120px;
-    background-color: #FFF;
+    background-color: #E3E3E3;
     border-radius: 30px;
     height: 50px;
     text-align: center;
@@ -53,7 +53,7 @@ export const Link = styled.a`
     padding: 5px 10px ;
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
 
     &:hover{
