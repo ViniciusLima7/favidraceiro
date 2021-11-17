@@ -1,5 +1,5 @@
 import React from 'react'
-import { Adress, CabecalhoTable, Container, ContainerExterno, Horario, InfoTable, Link, Rodape, Table, Title } from './style';
+import { Adress, CabecalhoTable, Container, ContainerExterno, Horario, InfoTable, ItemList, Link, Rodape, Table, Title } from './style';
 
 function Contato(){
 
@@ -8,13 +8,13 @@ function Contato(){
         <ContainerExterno>
             <Container>
                 <Rodape>
-                    <Title>Contato</Title>
+                    <Title id="contato">Contato</Title>
                     <div data-field="phone">
                         <Link href="tel:+55-66-99202-9676" >Ligar agora</Link>
-                        <ul>
-                            <li>(66) 99202-9676</li>
-                            <li>(66) 5555-8890</li>
-                        </ul>
+                        
+                            <ItemList>(66) 99202-9676</ItemList>
+                            <ItemList>(66) 5555-8890</ItemList>
+                        
                     </div>
                 </Rodape>
                 <Rodape>
@@ -31,7 +31,7 @@ function Contato(){
                     </div>
                 </Rodape>
                 <Rodape>
-                    <Title>Horário de funcionamento</Title>
+                    <Title>Horário de Funcionamento</Title>
                     <div>
                         <Table>
                             <tbody>

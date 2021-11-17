@@ -8,7 +8,7 @@ import bannerVidro from '../../assets/vidro.jpg';
             <Texto>
                 <Title>Blindes <br/> Vidros</Title>
                 <p>O melhor serviço pra você</p>
-                <Link href="teste">Saiba mais !</Link>
+                <Link href="#servicos">Saiba mais !</Link>
             </Texto>
             <div>
                 <div>

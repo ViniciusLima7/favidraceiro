@@ -5,6 +5,7 @@ export const ContainerExterno = styled.footer`
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-bottom: 10px;
 `;
 
 export const Container = styled.div`
@@ -17,11 +18,17 @@ export const Container = styled.div`
 export const Rodape = styled.div`
   flex: 1;
   margin: 0 18px 42px;
+  text-align: start;
 `;
 
 export const Title = styled.h3`
   font-weight: bold;
   line-height: 1em;
+`;
+
+export const ItemList = styled.li`
+  list-style: none;
+  text-align: start;
 `;
 
 export const Link = styled.a`
@@ -38,6 +45,12 @@ export const Link = styled.a`
   line-height: 1.5em;
   font-family: "Lora", serif;
   font-weight: 400;
+
+  &:hover {
+    background-color: #ffe1dd;
+    color: #122a57;
+    transition: 0.3s ease all;
+  }
 `;
 
 export const Adress = styled.address`

@@ -18,5 +18,10 @@ export const Texto = styled.p`
 export const Link = styled.a`
   text-decoration: none;
   color: #c96c61;
-  font-weight: 700;
+  font-weight: 549;
+
+  &:hover {
+    color: #303f9f;
+    transition: 0.3s ease all;
+  }
 `;

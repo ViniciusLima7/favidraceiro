@@ -24,7 +24,7 @@ const Servicos = () =>{
                 <ItemServico>
                   <div><Image src={janela} alt="Janelas de Vidro" /></div>
                   <Text>Janelas</Text>
-                  <Link href="#">Faça seu Orçamento Agora</Link>
+                  <Link href="#orcamentos">Faça seu Orçamento Agora</Link>
                 </ItemServico>
 
                 <ItemServico>
@@ -32,7 +32,7 @@ const Servicos = () =>{
                     <Image src={moldura} alt="Espelhos personalizados" />
                   </div>
                   <Text>Molduras</Text>
-                  <Link href="#">Faça seu Orçamento Agora</Link>
+                  <Link href="#orcamentos">Faça seu Orçamento Agora</Link>
                 </ItemServico>
 
                 <ItemServico>
@@ -40,10 +40,10 @@ const Servicos = () =>{
                     <Image src={porta} alt="Espelhos personalizados" />
                   </div>
                   <Text>Portas</Text>
-                  <Link href="#">Faça seu Orçamento Agora</Link>
+                  <Link href="#orcamentos">Faça seu Orçamento Agora</Link>
                 </ItemServico>
 
-                <ItemServico>
+                {/* <ItemServico>
                   <div>
                     <Image src={espelho} alt="Espelhos personalizados" />
                   </div>
@@ -57,7 +57,7 @@ const Servicos = () =>{
                   </div>
                   <Text>Vidro Temperado Emodulado</Text>
                   <Link href="#">Faça seu Orçamento Agora</Link>
-                </ItemServico>
+                </ItemServico> */}
 
             </ListaServicos>
        </ContainerExterno>

@@ -1,25 +1,21 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const ContainerExterno = styled.div`
-/* width: 60%; */
-background: #FFF;
-text-align: center;
-align-items: center;
-justify-content: center;
-/* margin-left: 20%; */
+  /* width: 60%; */
+  background: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2px;
+  /* margin-left: 20%; */
 `;
 
 export const Formulario = styled.form`
-background: #FFF;
-
-
+  background: #fff;
 `;
 
-export const  Title = styled.h1`
-margin: 50px;
-font-size:50px;
-text-transform: uppercase;
-
-
+export const Title = styled.h1`
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 `;
