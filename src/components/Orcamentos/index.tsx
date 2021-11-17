@@ -1,18 +1,21 @@
 import { Button, Container, FormControlLabel, Switch, TextField } from '@material-ui/core';
-import React from 'react'
 import { ContainerExterno, Formulario, Title } from './style';
 
 
 
 function Orcamento(){
 
-
 return (
     <ContainerExterno>
         <br/>
         <Title id="orcamentos">Orçamento</Title>
         <Container component="article" maxWidth="sm">
-            <Formulario>
+            <Formulario
+            // Para não recarreagr a página quando enviar formulário.
+                onSubmit={(event) => {
+                    event.preventDefault();
+                }}        
+            >
                  <TextField
                      id="nome"
                      name="nome"
@@ -30,10 +33,11 @@ return (
                      required
                      variant="outlined"
                      margin="normal"
-                     fullWidth  
+                     fullWidth 
                  />
 
                   <TextField
+                     helperText="Ex: (dd) xxxxx-xxxx"
                      id="celular"
                      name="celular"
                      label="Celular"
@@ -73,6 +77,8 @@ return (
                     margin="normal"
                     fullWidth
                     required
+                    multiline
+                    maxRows={10}   
                 />
 
                 <Button type="submit" variant="contained" color="primary">
