@@ -13,7 +13,7 @@ export const Container = styled.div`
 `;
 
 export const ContainerExterno = styled.div`
-  background-color: #c96c61;
+  background-color: #bb6159;
   /* width: 180%; */
   background-size: contain;
   padding-bottom: 70px;

@@ -16,7 +16,7 @@ export const Container = styled.div`
 
 export const Title = styled.h2`
   font-size: 32px;
-  color: #c96c61;
+  color: #bb6159;
   display: flex;
   margin-bottom: 20px;
   margin-left: 50px;
@@ -26,7 +26,7 @@ export const Title = styled.h2`
     height: 50px;
     width: 5px;
     margin-right: 5px;
-    background-color: #c96c61;
+    background-color: #bb6159;
     position: relative;
   }
 `;
@@ -35,6 +35,7 @@ export const Text = styled.p`
   margin-left: 50px;
   margin-bottom: 10px;
   width: 90%;
+  color: #fff;
 `;
 
 export const Image = styled.img`

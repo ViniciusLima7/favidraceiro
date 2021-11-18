@@ -29,10 +29,11 @@ export const Title = styled.h3`
 export const ItemList = styled.li`
   list-style: none;
   text-align: start;
+  color: #fff;
 `;
 
 export const Link = styled.a`
-  background-color: #c96c61;
+  background-color: #bb6159;
   margin: 0 0 24px;
   padding: 18px 54px;
   border-radius: 2px;
@@ -56,6 +57,7 @@ export const Link = styled.a`
 export const Adress = styled.address`
   font-style: normal;
   display: block;
+  color: #fff;
 `;
 
 export const CabecalhoTable = styled.td`
@@ -63,6 +65,7 @@ export const CabecalhoTable = styled.td`
   text-align: inherit;
   display: table-cell;
   vertical-align: inherit;
+  color: #fff;
 `;
 
 export const Table = styled.table`
@@ -75,6 +78,7 @@ export const InfoTable = styled.th`
   padding: 0 0.5 em;
   display: table-cell;
   vertical-align: inherit;
+  color: #fff;
 `;
 
 export const Horario = styled.span`

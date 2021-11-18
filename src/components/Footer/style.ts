@@ -13,15 +13,17 @@ export const Texto = styled.p`
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  color: #fff;
 `;
 
 export const Link = styled.a`
   text-decoration: none;
-  color: #c96c61;
+  color: #bb6159;
   font-weight: 549;
 
   &:hover {
-    color: #303f9f;
+    color: #000;
+    /* color: #303f9f; */
     transition: 0.3s ease all;
   }
 `;

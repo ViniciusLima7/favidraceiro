@@ -13,17 +13,18 @@ export const Container = styled.div`
 
 export const Texto = styled.div`
   min-height: 200px;
+  color: #fff;
 `;
 
 export const Title = styled.h1`
-  color: #c96c61;
+  color: #bb6159;
   font-size: 48px;
   margin-bottom: 10px;
   /* font-size: 60px; */
 `;
 
 export const Link = styled.a`
-  background-color: #c96c61;
+  background-color: #bb6159;
   color: white;
   text-align: center;
   border-radius: 30px;
