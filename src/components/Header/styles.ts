@@ -6,6 +6,7 @@ export const Cabecalho = styled.header`
   display: flex;
   align-items: center;
   color: #fff;
+  font-family: "Open Sans", sans-serif;
 `;
 
 export const Container = styled.div`

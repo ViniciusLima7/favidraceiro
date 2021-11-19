@@ -17,6 +17,7 @@ export const ContainerExterno = styled.div`
   /* width: 180%; */
   background-size: contain;
   padding-bottom: 70px;
+  font-family: "Open Sans", sans-serif;
 `;
 
 export const Title = styled.h2`

@@ -1,5 +1,7 @@
 import React from 'react'
-import { Container, Link, Texto } from './style';
+import { Container, IconeWhatsApp, Link, LinkWhatsApp, Texto } from './style';
+import whatsapp from "../../assets/whatsapp.svg";
+
 function Footer(){
 
 
@@ -10,6 +12,9 @@ function Footer(){
                 Desenvolvido por | 
                 <Link href="https://www.linkedin.com/in/marcos-vinicius-lima/" target="_blank"> Vinicius Lima</Link>                  
             </Texto>
+            <LinkWhatsApp href="https://web.whatsapp.com/send?phone=5566992029676" target="_blank">
+                <IconeWhatsApp src={whatsapp} alt="ds"></IconeWhatsApp>
+            </LinkWhatsApp>
         </Container>
     );                               
 }

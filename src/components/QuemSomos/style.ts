@@ -20,7 +20,8 @@ export const Title = styled.h2`
   display: flex;
   margin-bottom: 20px;
   margin-left: 50px;
-
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
   &:before {
     content: "";
     height: 50px;

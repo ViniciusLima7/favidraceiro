@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const Container = styled.div`
   text-align: center;
 `;
@@ -26,4 +25,15 @@ export const Link = styled.a`
     /* color: #303f9f; */
     transition: 0.3s ease all;
   }
+`;
+
+export const IconeWhatsApp = styled.img`
+  position: fixed;
+  height: 70px;
+`;
+
+export const LinkWhatsApp = styled.a`
+  position: fixed;
+  right: 10%;
+  bottom: 15%;
 `;

@@ -9,6 +9,7 @@ export const Container = styled.div`
   height: 100vh;
   align-items: center;
   justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
 `;
 
 export const Texto = styled.div`
