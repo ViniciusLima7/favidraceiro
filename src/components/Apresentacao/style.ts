@@ -21,7 +21,6 @@ export const Title = styled.h1`
   color: #bb6159;
   font-size: 48px;
   margin-bottom: 10px;
-  /* font-size: 60px; */
 `;
 
 export const Link = styled.a`

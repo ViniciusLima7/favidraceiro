@@ -10,11 +10,12 @@ return (
         {/* <br/> */}
         <Title id="orcamentos">Orçamento</Title>
         <Container component="article" maxWidth="sm">
-            <Formulario
+            <Formulario method="POST"
+                action="http://formmail.uni5.net/formmail.cgi"
             // Para não recarreagr a página quando enviar formulário.
-                onSubmit={(event) => {
-                    event.preventDefault();
-                }}        
+                // onSubmit={(event) => {
+                //     event.preventDefault();
+                // }}        
             >
                  <TextField
                      id="nome"
@@ -35,7 +36,15 @@ return (
                      margin="normal"
                      fullWidth 
                  />
-
+                    	<input type="hidden" name="recipient" value="vinicius.lima_iasd@hotmail.com"/>
+						{/* Pode ser qualquer endereço de email  que receba a mensagem  */}
+						{/* <input type="hidden" name="redirect" value="http://daianievinicius.com.br/index.html"> */}
+						{/* <!-- Após o envio, o usuário será redirecionado para a página configurada aqui --> */}
+                        <input type="hidden" name="subject" value="Orçamento"/>
+                            {/* <!-- Assunto da mensagem --> */}
+						<input type="hidden" name="email" value="daianievinicius@hotmail.com"/>
+                        {/* <!-- Deve ser uma conta de email ativa em seu domínio --></input> */}
+                        
                   <TextField
                      helperText="Ex: (dd) xxxxx-xxxx"
                      id="celular"

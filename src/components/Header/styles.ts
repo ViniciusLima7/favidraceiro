@@ -20,17 +20,17 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   &:hover {
-    color: #aaa;
+    color: #aaaaaa;
     cursor: pointer;
   }
 `;
 
 export const LinkTitle = styled.a`
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 
   &:hover {
-    color: #aaa;
+    color: #aaaaaa;
   }
 `;
 
