@@ -9,14 +9,18 @@ return (
     <ContainerExterno>
         {/* <br/> */}
         <Title id="orcamentos">Orçamento</Title>
-        <Container component="article" maxWidth="sm">
-            <Formulario method="POST"
+        <Container className="w3_mail_grids" component="article" maxWidth="sm">
+            <Formulario
                 action="http://formmail.uni5.net/formmail.cgi"
+                method="POST"
             // Para não recarreagr a página quando enviar formulário.
                 // onSubmit={(event) => {
                 //     event.preventDefault();
                 // }}        
             >
+            
+            <div className="w3_agile_mail_grid">
+                    
                  <TextField
                      id="nome"
                      name="nome"
@@ -25,25 +29,34 @@ return (
                      margin="normal"
                      fullWidth
                      required
-                />
+                     />
+
                  <TextField
                      id="email"
-                     name="email"
+                     name="replyto"
                      label="E-mail"
                      type="email"
                      required
                      variant="outlined"
                      margin="normal"
                      fullWidth 
-                 />
-                    	<input type="hidden" name="recipient" value="vinicius.lima_iasd@hotmail.com"/>
-						{/* Pode ser qualquer endereço de email  que receba a mensagem  */}
-						{/* <input type="hidden" name="redirect" value="http://daianievinicius.com.br/index.html"> */}
-						{/* <!-- Após o envio, o usuário será redirecionado para a página configurada aqui --> */}
-                        <input type="hidden" name="subject" value="Orçamento"/>
-                            {/* <!-- Assunto da mensagem --> */}
-						<input type="hidden" name="email" value="daianievinicius@hotmail.com"/>
-                        {/* <!-- Deve ser uma conta de email ativa em seu domínio --></input> */}
+                     />
+                {/* Quem vai receber o email? */}
+                <input
+                    type="hidden"
+                    name="recipient"
+                    value="vinicius.lima_iasd@hotmail.com"
+                    />
+                {/* Redirect, após o envio */}
+                <input
+                     type="hidden"
+                     name="redirect"
+                     value="http://daianievinicius.com.br/index.html"
+                />
+                 {/* Assunto da mensagem */}
+                <input type="hidden" name="subject" value="Solicitando Orcamento"/>
+				<input type="hidden" name="email" value="vinicius.mhcl@gmail.com"/>
+                {/* <!-- Deve ser uma conta de email ativa em seu domínio --></input> */}
                         
                   <TextField
                      helperText="Ex: (dd) xxxxx-xxxx"
@@ -55,7 +68,7 @@ return (
                      margin="normal"
                      fullWidth
                      required
-                  />
+                     />
 
                  <FormControlLabel
                      label="WhatsApp"
@@ -64,10 +77,11 @@ return (
                          name="promocoes"
                          color="primary"
                          />
-                     }
-                />
+                        }
+                        />
 
-                <TextField
+                    <TextField
+
                     id="assunto"
                     name="assunto"
                     label="Assunto"
@@ -75,7 +89,7 @@ return (
                     margin="normal"
                     fullWidth
                     required
-                />
+                    />
                 
                 <TextField
                     id="Mensagem"
@@ -88,11 +102,12 @@ return (
                     required
                     multiline
                     maxRows={10}   
-                />
+                    />
 
-                <Button type="submit" variant="contained" color="primary">
+                <Button type="submit" variant="contained" color="primary" value="Enviar">
                          Enviar Orçamento
                 </Button>
+            </div>
                 <br/>
                 <br/>
             </Formulario>
