@@ -28,8 +28,8 @@ export const Title = styled.h2`
 `;
 
 export const ListaServicos = styled.div`
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
 `;
 
 export const ItemServico = styled.div`

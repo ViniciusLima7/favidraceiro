@@ -51,7 +51,7 @@ return (
                 <input
                      type="hidden"
                      name="redirect"
-                     value="http://daianievinicius.com.br/index.html"
+                     value="http://localhost:3000/"
                 />
                  {/* Assunto da mensagem */}
                 <input type="hidden" name="subject" value="Solicitando Orcamento"/>
