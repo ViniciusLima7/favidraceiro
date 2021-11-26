@@ -36,13 +36,13 @@ export const ItemServico = styled.div`
 
 export const Link = styled.a`
   width: 120px;
-  background-color: #e3e3e3;
+  background-color: #0075a2;
   border-radius: 30px;
   height: 50px;
   text-align: center;
   margin-top: 20px;
   line-height: 50px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   text-decoration: none;
   color: black;
   font-size: 14px;
@@ -56,7 +56,7 @@ export const Link = styled.a`
 
 export const Text = styled.p`
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
   margin-top: 20px;
 `;
