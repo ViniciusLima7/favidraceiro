@@ -13,9 +13,13 @@ const QuemSomos = () =>{
                 A Blindes Vidros  tem conhecimento técnico e prático no setor vidreiro
                 e veio para atender o nicho de mercado que era carente de um bom atendimento, pós venda
                 voltado para a satisfação do cliente com preços justos e qualidade em primeiro lugar.
+                
                 Nos preucupamos não apenas com a qualidade do serviço, mas também com a qualidade do atendimento,
                 desde a sua chegada ao nosso site/loja até a instalação do Vidro.
                 </Text>
+                <Text>
+                    Para garantir material de qualidade, trabalhamos com os vidros Blindex.
+                    </Text>
                 <Text>
                 Preocupada com a melhoria do setor viemos para fazer o diferencial, trazendo novas
                 formas de se trabalhar com vidros.

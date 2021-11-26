@@ -7,7 +7,8 @@ import bannerVidro from '../../assets/vidro.jpg';
         <Container>
             <Texto>
                 <Title>Blindes <br/> Vidros</Title>
-                <p>O melhor serviço pra você</p>
+                <p>O melhor serviço pra você.</p>
+                <p>Trabalhamos com vidros Blindex.</p>
                 <Link href="#servicos">Saiba mais !</Link>
             </Texto>
             <div>
