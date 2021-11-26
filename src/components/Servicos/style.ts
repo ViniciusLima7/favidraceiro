@@ -27,10 +27,7 @@ export const Title = styled.h2`
   text-align: center;
 `;
 
-export const ListaServicos = styled.div`
-  /* display: flex;
-  justify-content: space-around; */
-`;
+export const ListaServicos = styled.div``;
 
 export const ItemServico = styled.div`
   text-align: center;
