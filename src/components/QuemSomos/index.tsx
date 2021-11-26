@@ -18,7 +18,7 @@ const QuemSomos = () =>{
                 desde a sua chegada ao nosso site/loja até a instalação do Vidro.
                 </Text>
                 <Text>
-                    Para garantir material de qualidade, trabalhamos com os vidros Blindex.
+                    Nós rabalhamos com os vidros Blindex, para garantir o melhor produto.
                     </Text>
                 <Text>
                 Preocupada com a melhoria do setor viemos para fazer o diferencial, trazendo novas
