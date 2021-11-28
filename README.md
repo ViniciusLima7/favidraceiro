@@ -32,6 +32,8 @@ Projeto criado para ser a landing page da BlindesVidros
 
 # Clone este repositório
 
+<code>
+
 <code>$ git clone https://github.com/ViniciusLima7/blindesvindros.git</code>
 
 # Acesse a pasta do projeto no seu terminal/cmd
@@ -47,6 +49,8 @@ Projeto criado para ser a landing page da BlindesVidros
 <code>$ npm run dev or yarn start</code>
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+</code>
 
 # 📝 Licença
 
