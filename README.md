@@ -1,7 +1,7 @@
 ## Projeto
 
 <h1 align="center">
-    <img alt="BLINDESVIDROS" title="Projeto" src="https://github.com/ViniciusLima7/blindesvidros/blob/master/img/capa.png" />
+    <img alt="BLINDESVIDROS" title="Projeto" src="https://github.com/ViniciusLima7/blindesvindros/blob/develop/src/assets/capa.png" />
 </h1>
 
 # 💻 Projeto
