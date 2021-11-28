@@ -1,3 +1,9 @@
+## About me
+
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ViniciusLima7)](https://github.com/ViniciusLima7)
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcos-vinicius-lima/)](https://www.linkedin.com/in/marcos-vinicius-lima/)
+
 ## Projeto
 
 <h1 align="center">
@@ -17,6 +23,8 @@ Projeto criado para ser a landing page da BlindesVidros
 - REACT
 - Styled Components
 - Typescript
+
+[![ViniciusLima7 GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/ViniciusLima7/github-readme-stats)
 
 # 🚀 Bibliotecas Usadas
 
