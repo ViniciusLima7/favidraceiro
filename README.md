@@ -32,19 +32,19 @@ Projeto criado para ser a landing page da BlindesVidros
 
 # Clone este repositório
 
-$ git clone https://github.com/ViniciusLima7/blindesvindros.git
+<code>$ git clone https://github.com/ViniciusLima7/blindesvindros.git</code>
 
 # Acesse a pasta do projeto no seu terminal/cmd
 
-$ cd blindesvidros
+<code>$ cd blindesvidros</code>
 
 # Instale as dependências
 
-$ npm install
+<code>$ npm install</code>
 
 # Execute a aplicação em modo de desenvolvimento
 
-$ npm run dev or yarn start
+<code>$ npm run dev or yarn start</code>
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
