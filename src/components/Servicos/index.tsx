@@ -29,15 +29,16 @@ const Servicos = () => {
   }
 };
 
-    return(
+  return (
+      <>
        <ContainerExterno>
            <Container id="servicos">
                 <Title>Serviços</Title>
         </Container>
         
 
-        <ListaServicos>
-          <Carousel
+     <ListaServicos>
+        <Carousel
             swipeable={false}
             draggable={false}
             showDots={false}
@@ -105,56 +106,18 @@ const Servicos = () => {
                   <Link href="#orcamentos">Faça seu Orçamento Agora</Link>
          </ItemServico> 
 
-</Carousel>;
-             </ListaServicos> 
+        </Carousel>;
+      </ListaServicos> 
+      </ContainerExterno>
 
-            {/* <ListaServicos>
-                <ItemServico>
-                  <div><Image src={box }alt="Box Banheiro" /></div>
-                  <Text>Box para Banheiro</Text>
-                  <Link href="#">Faça seu Orçamento Agora</Link>
-                </ItemServico>
-
-                <ItemServico>
-                  <div><Image src={janela} alt="Janelas de Vidro" /></div>
-                  <Text>Janelas</Text>
-                  <Link href="#orcamentos">Faça seu Orçamento Agora</Link>
-                </ItemServico>
-
-                <ItemServico>
-                  <div>
-                    <Image src={moldura} alt="Espelhos personalizados" />
-                  </div>
-                  <Text>Molduras</Text>
-                  <Link href="#orcamentos">Faça seu Orçamento Agora</Link>
-                </ItemServico>
-
-                <ItemServico>
-                  <div>
-                    <Image src={porta} alt="Espelhos personalizados" />
-                  </div>
-                  <Text>Portas</Text>
-                  <Link href="#orcamentos">Faça seu Orçamento Agora</Link>
-                </ItemServico>
-
-                {/* <ItemServico>
-                  <div>
-                    <Image src={espelho} alt="Espelhos personalizados" />
-                  </div>
-                  <Text>Vidro Comum</Text>
-                  <Link href="#">Faça seu Orçamento Agora</Link>
-                </ItemServico> 
-
-                 <ItemServico>
-                  <div>
-                    <Image src={temperado} alt="Espelhos personalizados" />
-                  </div>
-                  <Text>Vidro Temperado Emodulado</Text>
-                  <Link href="#">Faça seu Orçamento Agora</Link>
-                </ItemServico> */}
-
-            {/* </ListaServicos>  */}
-       </ContainerExterno>
+        
+          <iframe 
+               width="100%" 
+               height="500px" 
+               scrolling="no"
+               src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=rua%20oscar%20kunio%20kawakami,%20tabapora,%20mt+(Blindes%20Vidros)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+         </iframe>
+      </>
     );
 
 }
