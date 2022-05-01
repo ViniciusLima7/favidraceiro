@@ -12,6 +12,10 @@ export const Container = styled.div`
   justify-content: space-between;
   margin-bottom: 100px;
   margin-top: 150px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 `;
 
 export const Title = styled.h2`
@@ -30,6 +34,15 @@ export const Title = styled.h2`
     background-color: #bb6159;
     position: relative;
   }
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+    margin-left: 25px;
+    &:before {
+      height: 38px;
+      width: 4px;
+    }
+  }
 `;
 
 export const Text = styled.p`
@@ -37,10 +50,21 @@ export const Text = styled.p`
   margin-bottom: 10px;
   width: 90%;
   color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    margin-left: 25px;
+    width: 80%;
+  }
 `;
 
 export const Image = styled.img`
   height: 350px;
   width: 450px;
   border-radius: 20px;
+  @media (max-width: 768px) {
+    height: 230px;
+    width: 330px;
+    margin-left: -20px;
+  }
 `;
