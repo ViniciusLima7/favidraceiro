@@ -25,9 +25,17 @@ export const Title = styled.h2`
   font-size: 40px;
   margin-bottom: 0;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 `;
 
-export const ListaServicos = styled.div``;
+export const ListaServicos = styled.div`
+  @media (max-width: 768px) {
+    /* margin-left: -20px; */
+  }
+`;
 
 export const ItemServico = styled.div`
   text-align: center;
@@ -52,6 +60,10 @@ export const Link = styled.a`
     background-color: #ffe1dd;
     transition: 0.3s ease all;
   }
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 export const Text = styled.p`
@@ -59,6 +71,10 @@ export const Text = styled.p`
   font-size: 24px;
   color: #fff;
   margin-top: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 export const Image = styled.img`
@@ -68,4 +84,10 @@ export const Image = styled.img`
   border: 5px solid white;
   margin: auto;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    height: 210px;
+    width: 230px;
+    /* margin-left: -50px; */
+  }
 `;
