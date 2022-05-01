@@ -12,6 +12,12 @@ export const Container = styled.div`
   padding-bottom: 100px;
 `;
 
+export const Iframe = styled.div`
+  @media (max-width: 768px) {
+    width: 99.5%;
+  }
+`;
+
 export const ContainerExterno = styled.div`
   background-color: #bb6159;
   /* width: 180%; */
