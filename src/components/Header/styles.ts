@@ -23,6 +23,11 @@ export const Title = styled.h1`
     color: #aaaaaa;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+    padding: 5px;
+  }
 `;
 
 export const LinkTitle = styled.a`
@@ -41,11 +46,20 @@ export const List = styled.ul`
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  @media (max-width: 768px) {
+    justify-content: left;
+  }
 `;
 
 export const LinkItem = styled.a`
   color: #fff;
   text-decoration: none;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+    /* width: 10%; */
+    padding-right: 10px;
+  }
 
   &:hover {
     color: #aaa;
