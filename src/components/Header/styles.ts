@@ -26,7 +26,11 @@ export const Title = styled.h1`
 
   @media (max-width: 768px) {
     font-size: 28px;
-    padding: 5px;
+    padding-left: 5px;
+  }
+  @media (max-width: 480px) {
+    font-size: 25px;
+    padding-left: 10px;
   }
 `;
 
@@ -54,14 +58,15 @@ export const List = styled.ul`
 export const LinkItem = styled.a`
   color: #fff;
   text-decoration: none;
+  &:hover {
+    color: #aaa;
+  }
 
   @media (max-width: 768px) {
     font-size: 13px;
-    /* width: 10%; */
     padding-right: 10px;
   }
-
-  &:hover {
-    color: #aaa;
+  @media (max-width: 480px) {
+    font-size: 11.5px;
   }
 `;
