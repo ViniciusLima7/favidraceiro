@@ -13,6 +13,10 @@ export const Texto = styled.p`
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
 `;
 
 export const Link = styled.a`
@@ -30,10 +34,18 @@ export const Link = styled.a`
 export const IconeWhatsApp = styled.img`
   position: fixed;
   height: 70px;
+  @media (max-width: 768px) {
+    height: 60px;
+  }
 `;
 
 export const LinkWhatsApp = styled.a`
   position: fixed;
   right: 10%;
   bottom: 15%;
+
+  @media (max-width: 768px) {
+    right: 9.5%;
+    bottom: 11%;
+  }
 `;

@@ -18,4 +18,8 @@ export const Title = styled.h1`
   font-size: 50px;
   text-transform: uppercase;
   margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
 `;
