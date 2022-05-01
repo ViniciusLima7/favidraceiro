@@ -43,6 +43,13 @@ export const Title = styled.h2`
       width: 4px;
     }
   }
+
+  @media (max-width: 480px) {
+    font-size: 25px;
+    &:before {
+      height: 28px;
+    }
+  }
 `;
 
 export const Text = styled.p`
@@ -56,6 +63,10 @@ export const Text = styled.p`
     margin-left: 25px;
     width: 80%;
   }
+  @media (max-width: 480px) {
+    font-size: 10px;
+    width: 90%;
+  }
 `;
 
 export const Image = styled.img`
@@ -66,5 +77,10 @@ export const Image = styled.img`
     height: 230px;
     width: 330px;
     margin-left: -20px;
+  }
+  @media (max-width: 480px) {
+    height: 180px;
+    width: 280px;
+    margin-left: -10px;
   }
 `;
