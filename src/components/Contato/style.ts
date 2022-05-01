@@ -24,12 +24,20 @@ export const Rodape = styled.div`
 export const Title = styled.h3`
   font-weight: bold;
   line-height: 1em;
+
+  @media (max-width: 768px) {
+    font-size: 17px;
+  }
 `;
 
 export const ItemList = styled.li`
   list-style: none;
   text-align: start;
   color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const Link = styled.a`
@@ -52,12 +60,20 @@ export const Link = styled.a`
     color: #122a57;
     transition: 0.3s ease all;
   }
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 export const Adress = styled.address`
   font-style: normal;
   display: block;
   color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const CabecalhoTable = styled.td`
@@ -66,6 +82,9 @@ export const CabecalhoTable = styled.td`
   display: table-cell;
   vertical-align: inherit;
   color: #fff;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const Table = styled.table`
@@ -83,4 +102,7 @@ export const InfoTable = styled.th`
 
 export const Horario = styled.span`
   white-space: nowrap;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
