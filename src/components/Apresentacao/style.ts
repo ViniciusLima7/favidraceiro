@@ -25,6 +25,12 @@ export const Texto = styled.div`
       font-size: 12px;
     }
   }
+
+  @media (max-width: 480px) {
+    p {
+      font-size: 11px;
+    }
+  }
 `;
 
 export const Title = styled.h1`
@@ -34,6 +40,9 @@ export const Title = styled.h1`
 
   @media (max-width: 768px) {
     font-size: 35px;
+  }
+  @media (max-width: 480px) {
+    font-size: 30px;
   }
 `;
 
@@ -62,6 +71,13 @@ export const Link = styled.a`
     height: 35px;
     line-height: 35px;
   }
+  @media (max-width: 480px) {
+    font-size: 13px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 40px;
+  }
 `;
 
 export const Image = styled.img`
@@ -73,5 +89,9 @@ export const Image = styled.img`
   @media (max-width: 768px) {
     height: 200px;
     width: 300px;
+  }
+  @media (max-width: 480px) {
+    height: 150px;
+    width: 240px;
   }
 `;
