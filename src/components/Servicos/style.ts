@@ -35,13 +35,12 @@ export const Title = styled.h2`
   @media (max-width: 768px) {
     font-size: 32px;
   }
-`;
-
-export const ListaServicos = styled.div`
-  @media (max-width: 768px) {
-    /* margin-left: -20px; */
+  @media (max-width: 480px) {
+    font-size: 27px;
   }
 `;
+
+export const ListaServicos = styled.div``;
 
 export const ItemServico = styled.div`
   text-align: center;
@@ -70,6 +69,9 @@ export const Link = styled.a`
   @media (max-width: 768px) {
     font-size: 12px;
   }
+  @media (max-width: 480px) {
+    font-size: 9px;
+  }
 `;
 
 export const Text = styled.p`
@@ -80,6 +82,9 @@ export const Text = styled.p`
 
   @media (max-width: 768px) {
     font-size: 20px;
+  }
+  @media (max-width: 480px) {
+    font-size: 15px;
   }
 `;
 
@@ -94,6 +99,9 @@ export const Image = styled.img`
   @media (max-width: 768px) {
     height: 210px;
     width: 230px;
-    /* margin-left: -50px; */
+  }
+  @media (max-width: 480px) {
+    height: 160px;
+    width: 180px;
   }
 `;
