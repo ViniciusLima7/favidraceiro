@@ -6,6 +6,9 @@ export const ContainerExterno = styled.footer`
   justify-content: center;
   position: relative;
   margin-bottom: 10px;
+  @media (max-width: 480px) {
+    width: 99%;
+  }
 `;
 
 export const Container = styled.div`
@@ -28,6 +31,10 @@ export const Title = styled.h3`
   @media (max-width: 768px) {
     font-size: 17px;
   }
+
+  @media (max-width: 480px) {
+    font-size: 13px;
+  }
 `;
 
 export const ItemList = styled.li`
@@ -37,6 +44,9 @@ export const ItemList = styled.li`
 
   @media (max-width: 768px) {
     font-size: 14px;
+  }
+  @media (max-width: 480px) {
+    font-size: 12px;
   }
 `;
 
@@ -64,6 +74,10 @@ export const Link = styled.a`
   @media (max-width: 768px) {
     font-size: 12px;
   }
+  @media (max-width: 480px) {
+    font-size: 9px;
+    padding: 10px;
+  }
 `;
 
 export const Adress = styled.address`
@@ -73,6 +87,9 @@ export const Adress = styled.address`
 
   @media (max-width: 768px) {
     font-size: 14px;
+  }
+  @media (max-width: 480px) {
+    font-size: 11px;
   }
 `;
 
@@ -84,6 +101,9 @@ export const CabecalhoTable = styled.td`
   color: #fff;
   @media (max-width: 768px) {
     font-size: 14px;
+  }
+  @media (max-width: 480px) {
+    font-size: 11px;
   }
 `;
 
@@ -104,5 +124,8 @@ export const Horario = styled.span`
   white-space: nowrap;
   @media (max-width: 768px) {
     font-size: 14px;
+  }
+  @media (max-width: 480px) {
+    font-size: 10px;
   }
 `;
