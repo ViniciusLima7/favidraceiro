@@ -92,6 +92,10 @@ export const Image = styled.img`
   }
   @media (max-width: 480px) {
     height: 150px;
-    width: 240px;
+    width: 220px;
+  }
+  @media (max-width: 405px) {
+    height: 130px;
+    width: 200px;
   }
 `;

@@ -80,7 +80,11 @@ export const Image = styled.img`
   }
   @media (max-width: 480px) {
     height: 180px;
-    width: 280px;
+    width: 260px;
     margin-left: -10px;
+  }
+  @media (max-width: 405px) {
+    height: 160px;
+    width: 240px;
   }
 `;

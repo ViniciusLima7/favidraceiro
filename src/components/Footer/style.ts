@@ -18,6 +18,9 @@ export const Texto = styled.p`
     font-size: 13px;
   }
   @media (max-width: 480px) {
+    font-size: 9px;
+  }
+  @media (max-width: 405px) {
     font-size: 10px;
   }
 `;
@@ -41,7 +44,7 @@ export const IconeWhatsApp = styled.img`
     height: 60px;
   }
   @media (max-width: 480px) {
-    height: 50px;
+    height: 48px;
   }
 `;
 
@@ -55,7 +58,7 @@ export const LinkWhatsApp = styled.a`
     bottom: 11%;
   }
   @media (max-width: 480px) {
-    right: 12%;
-    bottom: 10%;
+    right: 16%;
+    bottom: 11%;
   }
 `;
