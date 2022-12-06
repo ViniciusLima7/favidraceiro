@@ -22,8 +22,8 @@ function Contato() {
           <div data-field="phone">
             <Link href="tel:+55-66-99202-9676">Ligar agora</Link>
 
-            <ItemList>(66) 99202-9676</ItemList>
-            <ItemList>(66) 5555-8890</ItemList>
+            <ItemList>(66) 99609-8502</ItemList>
+            <ItemList>(66) 98445-6596</ItemList>
           </div>
         </Rodape>
         <Rodape>
@@ -36,10 +36,10 @@ function Contato() {
               Ver rotas
             </Link>
             <Adress>
-              <div>Rua Odete Terezinha Lodi, 869N</div>
-              <div>Centro</div>
-              <div>Tabaporã - MT</div>
-              <div>CEP: 78563-000</div>
+              <div>Av. Jatobás, 1063</div>
+              <div>Jardim Celeste</div>
+              <div>SINOP - MT</div>
+              <div>CEP: 78556-650</div>
               <div>Brasil</div>
             </Adress>
           </div>
@@ -52,31 +52,31 @@ function Contato() {
                 <tr>
                   <CabecalhoTable>Segunda:</CabecalhoTable>
                   <InfoTable>
-                    <Horario>08:30 – 18:00</Horario>
+                    <Horario>08:00 – 18:00</Horario>
                   </InfoTable>
                 </tr>
                 <tr>
                   <CabecalhoTable>Terça:</CabecalhoTable>
                   <InfoTable>
-                    <Horario>08:30 – 18:00</Horario>
+                    <Horario>08:00 – 18:00</Horario>
                   </InfoTable>
                 </tr>
                 <tr>
                   <CabecalhoTable>Quarta:</CabecalhoTable>
                   <InfoTable>
-                    <Horario>08:30 – 18:00</Horario>
+                    <Horario>08:00 – 18:00</Horario>
                   </InfoTable>
                 </tr>
                 <tr>
                   <CabecalhoTable>Quinta:</CabecalhoTable>
                   <InfoTable>
-                    <Horario>08:30 – 18:00</Horario>
+                    <Horario>08:00 – 18:00</Horario>
                   </InfoTable>
                 </tr>
                 <tr>
                   <CabecalhoTable>Sexta:</CabecalhoTable>
                   <InfoTable>
-                    <Horario>08:30 – 18:00</Horario>
+                    <Horario>08:00 – 18:00</Horario>
                   </InfoTable>
                 </tr>
                 <tr>
