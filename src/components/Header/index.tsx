@@ -14,7 +14,7 @@ const Header = () => {
       <Container>
         <div>
           <Title>
-            <LinkTitle href="#">Blindes Vidros</LinkTitle>
+            <LinkTitle href="#">F.A VIDRACEIRO</LinkTitle>
           </Title>
         </div>
 
