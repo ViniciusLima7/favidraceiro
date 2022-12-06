@@ -20,7 +20,7 @@ function Contato() {
         <Rodape>
           <Title id="contato">Contato</Title>
           <div data-field="phone">
-            <Link href="tel:+55-66-99202-9676">Ligar agora</Link>
+            <Link href="tel:+55-66-99609-8502">Ligar agora</Link>
 
             <ItemList>(66) 99609-8502</ItemList>
             <ItemList>(66) 98445-6596</ItemList>
@@ -30,7 +30,7 @@ function Contato() {
           <Title>Endereço</Title>
           <div data-field="address">
             <Link
-              href="https://www.google.com/maps/dir//Vidra%C3%A7aria+Kito/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce53bd3678594f:0xb5f71e33c03162a6!2m2!1d-46.776565!2d-23.655853"
+              href="https://www.google.com/maps/dir//Avenida+dos+Jatob%C3%A1s,+1063+-+Jardim+Jacarandas,+Sinop+-+State+of+Mato+Grosso/@-11.8800693,-55.5458271,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x93a77fc6fff4a87f:0xe4bc81b62a0cf594!2m2!1d-55.5108073!2d-11.8801555"
               target="_blank"
             >
               Ver rotas

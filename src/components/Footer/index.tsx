@@ -6,7 +6,7 @@ function Footer() {
   return (
     <Container>
       <Texto>
-        © 2023 All Rights Reserved F.A VIDRACEIRO | Desenvolvido por |
+        © 2023 All Rights Reserved F.A Vidraceiro | Desenvolvido por |
         <Link
           href="https://www.linkedin.com/in/marcos-vinicius-lima/"
           target="_blank"
