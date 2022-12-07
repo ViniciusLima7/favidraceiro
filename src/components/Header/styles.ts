@@ -7,12 +7,22 @@ export const Cabecalho = styled.header`
   align-items: center;
   color: #fff;
   font-family: "Open Sans", sans-serif;
+  /* width: 120vw; */
 `;
 
 export const TextoDecorado = styled.h1`
   font-family: "Pinyon Script";
   font-size: 42px;
   margin-right: 25px;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+    padding-left: 5px;
+  }
+  @media (max-width: 480px) {
+    font-size: 20px;
+    padding-left: 10px;
+  }
 `;
 
 export const Container = styled.div`
@@ -31,11 +41,11 @@ export const Title = styled.h1`
   }
 
   @media (max-width: 768px) {
-    font-size: 28px;
+    font-size: 24px;
     padding-left: 5px;
   }
   @media (max-width: 480px) {
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 10px;
   }
 `;
@@ -72,10 +82,10 @@ export const LinkItem = styled.a`
   }
 
   @media (max-width: 768px) {
-    font-size: 13px;
+    font-size: 12px;
     padding-right: 10px;
   }
   @media (max-width: 480px) {
-    font-size: 11.5px;
+    font-size: 8px;
   }
 `;

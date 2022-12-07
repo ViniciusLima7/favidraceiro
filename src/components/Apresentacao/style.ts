@@ -39,10 +39,10 @@ export const Title = styled.h1`
   margin-bottom: 10px;
 
   @media (max-width: 768px) {
-    font-size: 35px;
+    font-size: 30px;
   }
   @media (max-width: 480px) {
-    font-size: 30px;
+    font-size: 25px;
   }
 `;
 
@@ -105,4 +105,13 @@ export const TextoDecorado = styled.h1`
   font-size: 52px;
   margin-right: 25px;
   margin-bottom: -6px;
+
+  @media (max-width: 768px) {
+    font-size: 34px;
+    padding-left: 5px;
+  }
+  @media (max-width: 480px) {
+    font-size: 30px;
+    padding-left: 10px;
+  }
 `;
