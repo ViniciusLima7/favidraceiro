@@ -8,19 +8,19 @@ const QuemSomos = () => {
       <div>
         <Title>Quem somos</Title>
         <Text>
-          A Blindes Vidros tem conhecimento técnico e prático no setor vidreiro
-          e veio para atender o nicho de mercado que era carente de um bom
-          atendimento, pós venda voltado para a satisfação do cliente com preços
-          justos e qualidade em primeiro lugar. Nos preucupamos não apenas com a
-          qualidade do serviço, mas também com a qualidade do atendimento, desde
-          a sua chegada ao nosso site/loja até a instalação do Vidro.
+          A F.A VIDRACEIRO tem conhecimento técnico e prático no setor vidreiro
+          e veio para atender o nicho de mercado que era carente de agilidade e
+          um bom atendimento.
         </Text>
         <Text>
-          Nós trabalhamos com os vidros Blindex, para garantir o melhor produto.
+          Nos preucupamos não apenas com a qualidade do serviço, mas também com
+          a qualidade do atendimento, desde a sua chegada ao nosso site/loja até
+          a instalação do Vidro.
         </Text>
+        <Text>Preços justos e qualidade em primeiro lugar.</Text>
         <Text>
-          Preocupada com a melhoria do setor viemos para fazer o diferencial,
-          trazendo novas formas de se trabalhar com vidros.
+          Para maior facilidade do cliente, também oferecemos instalação e
+          manutenção de seus vidros, na sua residencia ou empresa.
         </Text>
       </div>
 
