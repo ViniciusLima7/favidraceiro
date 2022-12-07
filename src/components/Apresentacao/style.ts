@@ -99,3 +99,10 @@ export const Image = styled.img`
     width: 200px;
   }
 `;
+
+export const TextoDecorado = styled.h1`
+  font-family: "Pinyon Script";
+  font-size: 52px;
+  margin-right: 25px;
+  margin-bottom: -6px;
+`;

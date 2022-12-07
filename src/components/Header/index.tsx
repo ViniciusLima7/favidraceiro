@@ -5,6 +5,7 @@ import {
   LinkItem,
   LinkTitle,
   List,
+  TextoDecorado,
   Title,
 } from "./styles";
 
@@ -14,7 +15,9 @@ const Header = () => {
       <Container>
         <div>
           <Title>
-            <LinkTitle href="#">F.A VIDRACEIRO</LinkTitle>
+            <LinkTitle href="#">
+              <TextoDecorado>F.A </TextoDecorado>VIDRACEIRO
+            </LinkTitle>
           </Title>
         </div>
 

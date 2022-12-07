@@ -9,6 +9,12 @@ export const Cabecalho = styled.header`
   font-family: "Open Sans", sans-serif;
 `;
 
+export const TextoDecorado = styled.h1`
+  font-family: "Pinyon Script";
+  font-size: 42px;
+  margin-right: 25px;
+`;
+
 export const Container = styled.div`
   display: flex;
   max-width: 992px;
@@ -37,6 +43,9 @@ export const Title = styled.h1`
 export const LinkTitle = styled.a`
   text-decoration: none;
   color: #ffffff;
+  display: flex;
+  align-items: baseline;
+  text-align: center;
 
   &:hover {
     color: #aaaaaa;

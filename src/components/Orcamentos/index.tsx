@@ -52,11 +52,15 @@ function Orcamento() {
             <input
               type="hidden"
               name="redirect"
-              value="http://localhost:3001/"
+              value="https://www.favidraceiro.com.br/"
             />
             {/* Assunto da mensagem */}
             <input type="hidden" name="subject" value="Solicitando Orcamento" />
-            <input type="hidden" name="email" value="vinicius.mhcl@gmail.com" />
+            <input
+              type="hidden"
+              name="email"
+              value="orcamentosfavidracaria@gmail.com"
+            />
             {/* <!-- Deve ser uma conta de email ativa em seu domínio --></input> */}
 
             <TextField
