@@ -42,9 +42,13 @@ export const IconeWhatsApp = styled.img`
   height: 70px;
   @media (max-width: 768px) {
     height: 60px;
+    top: 70%;
+    right: 20%;
   }
   @media (max-width: 480px) {
     height: 48px;
+    top: 80%;
+    right: 10%;
   }
 `;
 
