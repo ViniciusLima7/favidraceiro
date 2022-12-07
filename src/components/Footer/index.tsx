@@ -16,7 +16,7 @@ function Footer() {
         </Link>
       </Texto>
       <LinkWhatsApp
-        href="https://wa.me/5566996098502?text=Olá,%20Gostaria%20de%20um%20orçamento%20pode%20me%20ajudar?"
+        href="https://wa.me/5566984456596?text=Olá,%20Gostaria%20de%20um%20orçamento%20pode%20me%20ajudar?"
         target="_blank"
       >
         <IconeWhatsApp src={whatsapp} alt="ds"></IconeWhatsApp>

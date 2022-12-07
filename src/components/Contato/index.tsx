@@ -20,7 +20,7 @@ function Contato() {
         <Rodape>
           <Title id="contato">Contato</Title>
           <div data-field="phone">
-            <Link href="tel:+55-66-99609-8502">Ligar agora</Link>
+            <Link href="tel:+55-66-8445-6596">Ligar agora</Link>
 
             <ItemList>(66) 99609-8502</ItemList>
             <ItemList>(66) 98445-6596</ItemList>
