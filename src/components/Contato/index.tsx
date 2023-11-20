@@ -36,10 +36,10 @@ function Contato() {
               Ver rotas
             </Link>
             <Adress>
-              <div>Av. Jatobás, 1063</div>
-              <div>Jardim Celeste</div>
-              <div>SINOP - MT</div>
-              <div>CEP: 78556-650</div>
+              <div>Rua Alida, 185</div>
+              {/* <div>Jardim Celeste</div> */}
+              <div>Tabaporã - MT</div>
+              {/* <div>CEP: 78556-650</div> */}
               <div>Brasil</div>
             </Adress>
           </div>
