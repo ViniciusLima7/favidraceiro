@@ -30,16 +30,16 @@ function Contato() {
           <Title>Endereço</Title>
           <div data-field="address">
             <Link
-              href="https://www.google.com/maps/dir//Avenida+dos+Jatob%C3%A1s,+1063+-+Jardim+Jacarandas,+Sinop+-+State+of+Mato+Grosso/@-11.8800693,-55.5458271,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x93a77fc6fff4a87f:0xe4bc81b62a0cf594!2m2!1d-55.5108073!2d-11.8801555"
+              href="https://www.google.com/maps/place/R.+Ilda,+185,+Tabapor%C3%A3+-+MT,+78563-000,+Brazil/@-11.3061665,-56.8203283,17z/data=!3m1!4b1!4m5!3m4!1s0x93a8aea45c85acf9:0xdd16e73db7b9df6e!8m2!3d-11.3061718!4d-56.8177534?hl=en&entry=ttu"
               target="_blank"
             >
               Ver rotas
             </Link>
             <Adress>
-              <div>Rua Alida, 185</div>
+              <div>Rua Ilda, 185</div>
               {/* <div>Jardim Celeste</div> */}
               <div>Tabaporã - MT</div>
-              {/* <div>CEP: 78556-650</div> */}
+              <div>CEP: 78563-000</div>
               <div>Brasil</div>
             </Adress>
           </div>
